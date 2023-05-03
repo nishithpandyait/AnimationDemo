@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Investment</string>
+    <string name="title_notifications">Settings</string>
+    <string name="hello_content">Hello Content</string>
+    <string name="open_account">Open Account</string>
+    <string name="top_up">Top up</string>
+    <string name="send">Send</string>
+    <string name="account_info">Account Info</string>
+</resources>
