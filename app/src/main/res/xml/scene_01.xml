@@ -26,7 +26,7 @@
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toBottomOf="@+id/button"
-            android:layout_marginTop="72dp"
+            android:layout_marginTop="20dp"
             motion:layout_constraintHorizontal_bias="0.497" />
         <Constraint
             android:layout_height="0dp"
@@ -36,6 +36,13 @@
         <Constraint
             motion:layout_constraintBottom_toBottomOf="@+id/button"
             android:id="@+id/TODO" />
+        <Constraint
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            motion:layout_constraintTop_toBottomOf="@+id/bottom_sheet"
+            android:id="@+id/bottom_sheet_result"
+            motion:layout_constraintBottom_toTopOf="@+id/bottom_sheet_real" />
 
 
     </ConstraintSet>
@@ -71,6 +78,11 @@
             motion:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="50dp"
             />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            motion:layout_constraintTop_toBottomOf="parent"
+            android:id="@+id/bottom_sheet_result" />
 
 
     </ConstraintSet>

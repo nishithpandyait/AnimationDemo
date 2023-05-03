@@ -8,4 +8,6 @@
     <string name="top_up">Top up</string>
     <string name="send">Send</string>
     <string name="account_info">Account Info</string>
+    <string name="we_are_printing_your_card">We are printing your card</string>
+    <string name="usually_takes_4_5_business_days">Usually takes 4-5 business days</string>
 </resources>

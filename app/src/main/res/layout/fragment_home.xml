@@ -3,29 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/motionLayout"
-    android:background="@color/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     app:layoutDescription="@xml/scene_01"
     tools:showPaths="true">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/button"
-        app:cardBackgroundColor="@color/teal_200"
-        android:background="@color/teal_200"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="50dp"
+        android:background="@color/teal_200"
         android:paddingBottom="50dp"
         android:text="Button"
-        >
+        app:cardBackgroundColor="@color/teal_200">
 
         <include
             android:id="@+id/three_buttons"
             layout="@layout/layout_three_buttons" />
 
     </androidx.cardview.widget.CardView>
-
 
 
     <androidx.cardview.widget.CardView
@@ -47,20 +45,20 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        app:cardUseCompatPadding="true"
-        app:contentPadding="10dp"
         android:id="@+id/bottom_sheet_real"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="bottom_sheet_real"
         app:cardCornerRadius="30dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="10dp"
         app:layout_constraintVertical_bias="0.5">
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="10dp">
 
             <TextView
 
@@ -73,17 +71,17 @@
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:layout_margin="10dp"
-                    app:backgroundTint="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    android:src="@mipmap/ic_launcher"
+                    app:backgroundTint="@color/white" />
 
                 <androidx.appcompat.widget.LinearLayoutCompat
-                    android:layout_margin="10dp"
-                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -114,17 +112,17 @@
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:layout_margin="10dp"
-                    app:backgroundTint="@color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    android:src="@mipmap/ic_launcher"
+                    app:backgroundTint="@color/white" />
 
                 <androidx.appcompat.widget.LinearLayoutCompat
-                    android:layout_margin="10dp"
-                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -148,5 +146,48 @@
 
     </androidx.cardview.widget.CardView>
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottom_sheet_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bottom_sheet"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/we_are_printing_your_card" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/usually_takes_4_5_business_days" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:src="@drawable/print_info" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
