@@ -6,8 +6,7 @@
     android:background="@color/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layoutDescription="@xml/scene_setting"
-    tools:showPaths="true">
+    >
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"

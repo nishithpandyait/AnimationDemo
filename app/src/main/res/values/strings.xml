@@ -10,4 +10,10 @@
     <string name="account_info">Account Info</string>
     <string name="we_are_printing_your_card">We are printing your card</string>
     <string name="usually_takes_4_5_business_days">Usually takes 4-5 business days</string>
+    <string name="bank_account">Bank Account</string>
+    <string name="aed_2_00_fee">AED 2.00 Fee</string>
+    <string name="done">Done</string>
+    <string name="info_investment">Controllable spending for children. Teach them to manage money responsibly from young age.</string>
+    <string name="ivestor_for_minor">iVestor for Minor</string>
+    <string name="just_connect_it_on_the_child_s_phone">Just connect it on the child\'s phone</string>
 </resources>
